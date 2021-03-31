@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="61" height="76.89" viewBox="0 0 61 76.89">
+  <g id="icon-scroll-mouse" transform="translate(-942 -1067.513)">
+    <text id="Scroll" transform="translate(942 1138.402)" fill="#fff" font-size="22" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500"><tspan x="0" y="0">Scroll</tspan></text>
+    <g id="mouse" transform="translate(958 1067.513)">
+      <path id="패스_5611" data-name="패스 5611" d="M20.768,8.411a1.4,1.4,0,0,1,1.4,1.4V15.42a1.4,1.4,0,0,1-2.8,0V9.813A1.4,1.4,0,0,1,20.768,8.411ZM31.982,30.839V14.018a11.214,11.214,0,1,0-22.429,0V30.839a11.214,11.214,0,1,0,22.429,0ZM20.768,0A14.018,14.018,0,0,0,6.75,14.018V30.839a14.018,14.018,0,1,0,28.036,0V14.018A14.018,14.018,0,0,0,20.768,0Z" transform="translate(-6.75 0)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
