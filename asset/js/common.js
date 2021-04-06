@@ -68,5 +68,3 @@ $( function() {
       // Configuration options go here
       options: {}
   });
-
-

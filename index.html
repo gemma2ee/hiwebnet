@@ -26,7 +26,17 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="asset/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-  
+
+    <!-- Open Graph -->
+    <link rel="image_src" href="asset/images/og_tag.png" />
+    <meta name="description" content="This site is the website of Hiwebnet Inc." />
+    <meta property="og:url"                content="https://hiwebnet.co.kr/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="(주)하이웹넷 홈페이지" />
+    <meta property="og:description"        content="This site is the website of Hiwebnet Inc." />
+    <meta property="og:image"              content="asset/images/og_tag.png" />
+
+
     <!-- Jquery-ui CSS (datepicker) -->
     <link href="lib/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet">
 
@@ -51,7 +61,19 @@
 </head>
 
 <body class="d-flex flex-column h-100">
+  <!--
+  <div id="map" style="width:500px;height:400px;"></div>
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5bc3d4befd489a5ff18f351a17d0efa9"></script>
+	<script>
+		var container = document.getElementById('map');
+		var options = {
+			center: new kakao.maps.LatLng(33.450701, 126.570667),
+			level: 3
+		};
 
+		var map = new kakao.maps.Map(container, options);
+	</script>
+  -->
   <!-- START::MAIN BODY -->
   <main role="main" class="flex-shrink-0">
     <div class="page_container">
@@ -59,33 +81,31 @@
         <a href="#modal_01" data-toggle="modal" data-target="#modal_01" style="cursor: initial;">
           <img src="asset/images/index.png" alt="hiwebnet inc." width="100%"/>
         </a>
-        
-       
       </div>
     </div>
     
   </main>
+
   <!-- END::MAIN BODY -->
 
 
    <!-- Modal -->
    <div class="modal fade" id="modal_01" tabindex="-1" aria-labelledby="modal_01_label" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modal_01_label">알림</h5>
+          <h5 class="modal-title" id="modal_01_label"><i class="fa fa-bullhorn" aria-hidden="true"></i> 알림</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-
-          곧 업데이트될 예정입니다.
-                    
+          컨텐츠 준비중입니다.</br>
+          빠른시일내로 불편사항 해결하도록하겠습니다. 감사합니다.         
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
-          <button type="button" class="btn btn-primary" onclick="location.href='http://pf.kakao.com/_xnbYWT'">문의하기</button>
+          <button type="button" class="btn btn-primary" onclick="window.open('http://pf.kakao.com/_xnbYWT')"><i class="fa fa-comments" aria-hidden="true"></i> 문의하기</button>
         </div>
       </div>
 
@@ -106,6 +126,8 @@
 
 <!-- Custom JS -->
 <script type="text/javascript" src="asset/js/common.js"></script>
+
+
   
 </body>
 </html>
